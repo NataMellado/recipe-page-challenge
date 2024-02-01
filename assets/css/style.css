@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Young Serif";
+  src: url("../fonts/young-serif/YoungSerif-Regular.ttf") format("trueType");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf") format("trueType");
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Primary colors*/
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+
+  /* Neutral colors*/
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+
+  /* Fonts */
+  --Young-Serif: "Young Serif", sans-serif;
+  --Outfit: "Outfit", sans-serif;
+}
+
+/* Global */
+img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  padding: 2rem;
+}
+
+/* Typography */
+p,
+li,
+tr {
+  font-family: var(--Outfit);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: var(--Young-Serif);
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: var(--Young-Serif);
+  font-weight: 400;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-family: var(--Outfit);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+table .row2 {
+  font-weight: 700;
+}
+
+p,
+li {
+  line-height: 1.5rem;
+}
+
+ol ::marker {
+  font-weight: 700;
+}
+
+.nutrition-paragraph{
+    margin-bottom: 1rem;
+}
+
+/* Colors */
+li,
+p,
+tr {
+  color: var(--wenge-brown);
+}
+
+h1 {
+  color: var(--dark-charcoal);
+}
+
+h3 {
+  color: var(--dark-raspberry);
+}
+
+hr {
+  background-color: var(--light-grey);
+  height: 1px;
+  border: 0;
+  margin: 2rem 0;
+}
+
+h2,
+.row2,
+ol ::marker {
+  color: var(--nutmeg);
+}
+
+/* List */
+ul,
+ol {
+  padding-inline-start: 1.1rem;
+}
+
+li {
+  padding-inline-start: 1.2rem;
+  margin-block-end: 0.5rem;
+}
+
+/* Table */
+table {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid var(--light-grey);
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+td {
+  padding: 0.85rem;
+}
+
+/* Preparation time section */
+.section2 .wrapper {
+  background-color: var(--rose-white);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin: 2rem 0;
+}

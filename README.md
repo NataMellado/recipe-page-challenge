@@ -12,71 +12,96 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 
 ## Overview
 
+### The challenge
+
+![Mobile design](./design/mobile-design.jpg)
+![Desktop design](./design/desktop-design.jpg)
+
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile design](./design-final/mobile-design.png)
+![Desktop design](./design-final/desktop-design.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/natamellado/recipe-page-challenge](https://github.com/natamellado/recipe-page-challenge)
+- Live Site URL: [https://natamellado.github.io/recipe-page-challenge/](https://natamellado.github.io/recipe-page-challenge/)
 
 
 ## My process
 
-
 ### Built with
+
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) 
+- Mobile-first workflow with media queries
 
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+1. Refining Table styles
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+tr:last-child {
+  border-bottom: none;
 }
 ```
 
+  - In this CSS snippet, I delved into refining table styles by targeting the last child of a table row (tr) to remove the bottom border.
 
-### Continued development
+```css
+ul,
+ol {
+  padding-inline-start: 1.1rem;
+}
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+li {
+  padding-inline-start: 1.2rem;
+  margin-block-end: 0.5rem;
+}
+```
+
+  - I improved my understanding of list styling by utilizing padding-inline-start to set consistent indentation for both unordered (ul) and ordered (ol) lists. Additionally, I adjusted the padding and margin to enhance the spacing and alignment of list items (li).
+
+```css
+table {
+   border-collapse: collapse;
+}
+```
+
+  - The border-collapse CSS property defines the table's border model, dictating the interaction between the borders of table cells. When set to collapse, it merges adjacent table cell borders into a single border, resulting in a more compact and seamless table appearance.
+
+```css
+tr {
+   border-bottom: 1px solid var(--light-grey);
+}
+```
+
+  - This styling choice adds a subtle horizontal line between table rows, improving visual separation and structure.
 
 
-### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+2. Customizing List Markers
+
+```css
+ol ::marker {
+  font-weight: 700;
+  color: var(--nutmeg);
+}
+```
+
+Exploring the customization of ordered lists (ol), I utilized the ::marker pseudo-element to modify the appearance of list item markers. This technique involves setting the font-weight to 700 and changing the color to a custom variable (--nutmeg).
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
-## Acknowledgments
+- Github - [@natamellado](https://github.com/natamellado)
+- Frontend Mentor - [@natamellado](https://www.frontendmentor.io/profile/natamellado)

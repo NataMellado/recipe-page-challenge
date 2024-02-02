@@ -28,6 +28,7 @@
   --light-grey: hsl(30, 18%, 87%);
   --wenge-brown: hsl(30, 10%, 34%);
   --dark-charcoal: hsl(24, 5%, 18%);
+  --color-text-footer: hsl(32, 66%, 46%);
 
   /* Fonts */
   --Young-Serif: "Young Serif", sans-serif;
@@ -160,14 +161,35 @@ td {
   margin: 2rem 0;
 }
 
-/* Media queries */
-@media only screen and (max-width: 768px) {
-  img {
-    border-radius: 0;
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  background-color: var(--white);
+  
+  a {
+    text-decoration: none;
+    color: var(--color-text-footer);
   }
 }
 
-@media screen and (min-width: 768px) {
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  header img {
+    border-radius: 0;
+  }
+  footer {
+    padding: 1rem;
+    background-color: var(--eggshell);
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) {
   body {
     background-color: var(--eggshell);
 

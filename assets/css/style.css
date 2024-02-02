@@ -87,8 +87,8 @@ ol ::marker {
   font-weight: 700;
 }
 
-.nutrition-paragraph{
-    margin-bottom: 1rem;
+.nutrition-paragraph {
+  margin-bottom: 1rem;
 }
 
 /* Colors */
@@ -157,4 +157,79 @@ td {
   padding: 1rem 2rem;
   border-radius: 1rem;
   margin: 2rem 0;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: var(--eggshell);
+
+    .wrapper {
+      background-color: var(--white);
+      margin: 6rem 6rem;
+      padding: 3rem;
+      border-radius: 1rem;
+    }
+
+    header img {
+      margin-bottom: 2rem;
+      border-radius: 1rem;
+    }
+
+    main {
+      padding: 0rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: var(--eggshell);
+
+    .wrapper {
+      background-color: var(--white);
+      margin: 6rem 12rem;
+      padding: 3rem;
+      border-radius: 1rem;
+    }
+
+    header img {
+      margin-bottom: 2rem;
+      border-radius: 1rem;
+    }
+
+    main {
+      padding: 0rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-color: var(--eggshell);
+
+    .wrapper {
+      background-color: var(--white);
+      margin: 9rem 22rem;
+      padding: 3rem;
+      border-radius: 1rem;
+    }
+
+    header img {
+      margin-bottom: 2rem;
+      border-radius: 1rem;
+    }
+
+    main {
+      padding: 0rem;
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+      }
+    }
+  }
 }

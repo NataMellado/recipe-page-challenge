@@ -38,6 +38,7 @@
 img {
   width: 100%;
   height: auto;
+  border-radius: 1rem;
 }
 
 main {
@@ -160,6 +161,12 @@ td {
 }
 
 /* Media queries */
+@media only screen and (max-width: 768px) {
+  img {
+    border-radius: 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   body {
     background-color: var(--eggshell);
@@ -168,7 +175,7 @@ td {
       background-color: var(--white);
       margin: 6rem 6rem;
       padding: 3rem;
-      border-radius: 1rem;
+      border-radius: 2rem;
     }
 
     header img {
@@ -190,7 +197,7 @@ td {
       background-color: var(--white);
       margin: 6rem 12rem;
       padding: 3rem;
-      border-radius: 1rem;
+      border-radius: 2rem;
     }
 
     header img {
@@ -210,9 +217,9 @@ td {
 
     .wrapper {
       background-color: var(--white);
-      margin: 9rem 22rem;
+      margin: 6rem 22rem;
       padding: 3rem;
-      border-radius: 1rem;
+      border-radius: 2rem;
     }
 
     header img {

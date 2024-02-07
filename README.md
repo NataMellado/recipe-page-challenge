@@ -1,4 +1,4 @@
-# Frontend Mentor - Recipe page solution
+# Frontend Mentor - Recipe page solution.
 
 ![](./design/desktop-preview.jpg)
 

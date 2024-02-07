@@ -1,44 +1,16 @@
 # Frontend Mentor - Recipe page solution
 
+![](./design/desktop-preview.jpg)
+
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
 
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Final result screenshots](#final-result-screenshots)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-
-
-## Overview
-
-### The challenge
-
-- Mobile Design
-<img src="./design/mobile-design.jpg" alt="Mobile design" width="300" />
-
-- Desktop Design
-<img src="./design/desktop-design.jpg" alt="Desktop design" width="500" />
-
-
-### Final result screenshots
-
-- Mobile Design
-<img src="./design-final/mobile-design.png" alt="Mobile design final" width="300" />
-
-- Desktop Design
-<img src="./design-final/desktop-design.png" alt="Desktop design final" width="500" />
-
-
-### Links
-
-- Solution URL: [https://github.com/natamellado/recipe-page-challenge](https://github.com/natamellado/recipe-page-challenge)
-- Live Site URL: [https://natamellado.github.io/recipe-page-challenge/](https://natamellado.github.io/recipe-page-challenge/)
 
 
 ## My process
